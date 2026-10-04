@@ -14,5 +14,6 @@ for feature in data["features"]:
     west = max(coords, key=lambda x: x[0])[0]
     wards |= {ward_name: [south, north, east, west]}
 
-print(wards)
+if __name__ == "main":
+    (wards)
 
